@@ -9,6 +9,9 @@
 
 <script>
 import BScorll from "better-scroll";
+// import PullUp from "@better-scroll/pull-up";
+
+// BScroll.use(PullUp);
 
 export default {
   name: "Scroll",
@@ -63,6 +66,8 @@ export default {
     }
   }
 };
+
+// console.log(scroll);
 </script>
 
 <style>
