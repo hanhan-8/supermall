@@ -162,6 +162,7 @@ export default {
       }
     },
     addToCart() {
+      // 1.获取购物车需要展示的信息
       const product = {};
       product.image = this.topImages[0];
       product.title = this.goods.title;
@@ -169,6 +170,11 @@ export default {
       product.price = this.goods.realPrice;
       product.iid = this.iid;
       // console.log(product);
+
+      // 2.将商品添加到购物车里
+      // this.$store.cartList.push(product);
+      // this.$store.commit("addCart", product);
+      this.$store.dispatch("addCart", product);
     }
   }
 };

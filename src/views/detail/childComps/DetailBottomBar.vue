@@ -71,15 +71,17 @@ export default {
 .bar-right {
   font-size: 15px;
   color: #fff;
-  line-height: 58px;
+  line-height: 40px;
 }
 .bar-right .cart {
   background-color: #ffe817;
   color: #333;
   border-radius: 34px 0 0 34px;
+  margin: 10px 0;
 }
 .bar-right .buy {
   background-color: #f69;
   border-radius: 0 34px 34px 0;
+  margin: 10px 0;
 }
 </style>
